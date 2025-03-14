@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de ejemplo con multimedia, tabla de productos y lista de pedidos.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Bienvenido a Nuestra Pagina</h1>
+        <nav>
+            <ul>
+                <a href="index.html">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#carro">Carro de Compras</a>
+                <a href="#contacto">Contacto</a>
+            </ul>
+        </nav>
+        </center>
+    </header>
+    <hr>
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audios/audio.mp3" type="audio/mpeg" alt="sonido de piano relajante">
+        </audio>
+        <hr>
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
+            <source src="videos/video.mp4" type="video/mp4" alt="video de macarons">
+        </video>
+    </section>
+    <hr>
+    <!-- implementar etiqueta table, thead, tbody y tfoot, carrito de compras -->
+    <section id="productos">
+        <h2>Tabla de Productos</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Agregar al Carro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Producto 1</td>
+                    <td>$10.000</td>
+                    <td><a href="#carro">Agregar</a></td>
+                </tr>
+                <tr>
+                    <td>Producto 2</td>
+                    <td>$15.000</td>
+                    <td><a href="#carro">Agregar</a></td>
+                </tr>
+                <tr>
+                    <td>Producto 3</td>
+                    <td>$20.000</td>
+                    <td><a href="#carro">Agregar</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <section id="carro">
+        <h2>Carro de Compras</h2>
+        <p>Aquí se mostrarán los productos agregados al carro.</p>
+        <ol>
+            <li>Producto 1 - $10.000</li>
+            <li>Producto 2 - $15.000</li>
+            <li>Producto 3 - $20.000</li>
+        </ol>
+        <p>Total: $45.00</p>
+    </section>
+    <hr>
+    <center>
+        <footer>
+            <h4>footer</h4>
+            @derechos reservados 2025
+        </footer>
+    </center>
+    
+
+</body>
+</html>
